@@ -1,0 +1,23 @@
+.heading {
+	background-color: #bcd2d0;
+	padding-top: 90 px; 
+	padding-right: 7.2%; 
+	padding-left: 7.2%;
+	position: relative;
+	visibility: visible;
+	border: 30px solid #d0b783;
+	opacity: 1;
+	display: block;
+	z-index: 9;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

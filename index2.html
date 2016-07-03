@@ -1,0 +1,59 @@
+<html lang="en-US">
+
+<head>
+<title>Marijuana Weed Theme</title>
+<link rel="stylesheet" type="text/css" href="sheet.css">
+</head>
+
+<body>
+<div class="heading"><button onclick="myFunction()">Make Large Buttons</button>
+<button onclick="myFun()">Make Mini Buttons</button>
+<button onclick="myDiv()">Make Large Divs</button>
+<button onclick="dolly()">place text within</button>
+
+<script>
+function myFunction() {
+    var x = document.createElement("BUTTON");
+	x.style.backgroundColor = "#e5c3c6";
+	x.style.width = "500px";
+	x.style.height = "300px";	
+      document.body.appendChild(x);
+}
+</script>
+<script>
+function myFun() {
+    var x = document.createElement("BUTTON");
+	x.style.backgroundColor = "#e1e9b7";
+	x.style.width = "50px";
+	x.style.height = "30px";	
+      document.body.appendChild(x);
+}
+</script>
+<script>
+function myDiv() {
+    var div = document.createElement('div');
+	div.style.backgroundColor = "#f96161";
+	div.style.width = "500px";
+	div.style.height = "300px";
+	div.setAttribute('class', 'note');
+	div.id  = "hellodolly";
+	document.body.appendChild(div);
+}
+
+</script>
+
+<script>
+function dolly() {
+var x = document.getElementById("hellodolly");
+x.innerHTML = x.innerHTML + "Hello Dolly. ";
+}
+</script>
+</div>
+
+<div class="left-sidebar">
+</div>
+<div class="center-column"></div>
+<div class="footer"></div>
+</body>
+
+</html>
